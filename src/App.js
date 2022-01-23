@@ -1,5 +1,11 @@
+import FeedBack from "./components/FeedBack";
+
 function App() {
-  return <p>Hi World my Anna</p>;
+  return (
+    <div>
+      <FeedBack />
+    </div>
+  );
 }
 
 export default App;
